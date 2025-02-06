@@ -1,0 +1,35 @@
+.loading-spinner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+  }
+  
+  .football {
+    width: 80px;
+    height: 80px;
+    background-image: url('https://www.freeiconspng.com/uploads/football-png-1.png');
+    background-size: cover;
+    animation: spin 1.5s linear infinite, bounce 1.5s ease-in-out infinite;
+  }
+  
+  .loading-text {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+  }

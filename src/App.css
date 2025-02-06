@@ -1,0 +1,49 @@
+body {
+  background: #f0f2f5;
+}
+
+.hover\:transform:hover {
+  transform: translateY(-5px);
+}
+/* Add to App.css */
+body {
+  background-image: url('https://www.transparenttextures.com/patterns/football-no-lines.png');
+  background-color: #1a5e1a; /* Grass green */
+  animation: moveBackground 20s linear infinite;
+}
+
+@keyframes moveBackground {
+  from { background-position: 0 0; }
+  to { background-position: 100% 100%; }
+}
+
+/* Add to Player component's Card style */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Add to LoadingSpinner.css */
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.football {
+  width: 50px;
+  height: 50px;
+  background-image: url('https://www.freeiconspng.com/uploads/football-png-1.png');
+  background-size: cover;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
