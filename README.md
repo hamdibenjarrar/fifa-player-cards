@@ -2,7 +2,7 @@ FIFA Player Cards ⚽
 A modern and stylish React application that displays FIFA player cards with detailed information about each player. The app features a football-themed design, dynamic loading animations, and interactive player cards.
 
 FIFA Player Cards Preview
-(Add a screenshot of your app here)
+![image](https://github.com/user-attachments/assets/ae86c399-a3d8-4215-b31c-0ecbb35a3d1b)
 
 Features ✨
 Player Cards: Display player details including name, team, nationality, jersey number, age, and image.
