@@ -8,7 +8,7 @@ import './App.css';
 function App() {
   const [isLoading, setIsLoading] = useState(true);
 
-  // Simulate loading delay (replace with actual data fetching if needed)
+  // Simulate loading delay 🤍
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
